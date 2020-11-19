@@ -1,0 +1,30 @@
+exports.run = async (client, message, args) => {
+    try {
+    var util = require("../index");
+      /* ----------------------------- */ 
+      message.delete();
+      var ss4 = args.join(" ");
+      
+if (!message.member.hasPermission("ADMINISTRATOR")) return await message.channel.send('<:errado:739528758456877146> Comando restrito para os **Administradores**').then(msg => msg.delete({ timeout: 5000, reason: 'It had to be done.' }));;
+            senha[message.guild.id] =  {
+            guild: message.guild.id,
+            senhas: ss4
+        };
+    
+      fs.writeFile('./auth/senhas.json', JSON.stringify(senha), (err) => {
+          if(err) {
+            
+              util.embed("Aconteceu alguma coisa!...\n**Console:**\n```js\n"+err+"```");
+              return;
+          } else {
+            log(`Used Command [Set] to ${ss4} | ${message.guild.name}`)
+            
+              util.good(`Você setou ${message.guild.name} com o IP: *${ss4}*`)
+              return;
+          }
+      })
+    } catch (err) {
+        log(err)
+    }
+      
+};

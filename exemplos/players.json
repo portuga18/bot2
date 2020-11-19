@@ -1,0 +1,57 @@
+[
+  {
+    "endpoint": "127.0.0.1",
+    "id": 15,
+    "identifiers": [
+      "license:e2cc73b61fcd275b878386b3fcc7a4d879de3694",
+      "live:985153981140284"
+    ],
+    "name": "Jessica_Pontes",
+    "ping": 89
+  },
+  {
+    "endpoint": "127.0.0.1",
+    "id": 14,
+    "identifiers": [
+      "license:c72d728dc410e18e2b3fd5c488ed3d701bbde295",
+      "discord:291029334649470976"
+    ],
+    "name": "Fuinha",
+    "ping": 89
+  },
+  {
+    "endpoint": "127.0.0.1",
+    "id": 17,
+    "identifiers": [
+      "steam:110000132c2946b",
+      "license:4a1fb4405824a5c30828f6c47b233fd11659170d",
+      "live:985154034485644",
+      "discord:287218644142915585"
+    ],
+    "name": "Eduzin",
+    "ping": 100
+  },
+  {
+    "endpoint": "127.0.0.1",
+    "id": 13,
+    "identifiers": [
+      "license:c4c869bba165daa8e97e4fe95b46a0bb93f7400c",
+      "xbl:2533274892442901",
+      "live:1055520544416512",
+      "discord:243490199588438017",
+      "fivem:1359439"
+    ],
+    "name": "Madrigora",
+    "ping": 98
+  },
+  {
+    "endpoint": "127.0.0.1",
+    "id": 16,
+    "identifiers": [
+      "license:ab9d315f9af51e293043d8aae69e4b517fc96f5e",
+      "discord:358399392279035906"
+    ],
+    "name": "guilh",
+    "ping": 89
+  }
+]

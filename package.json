@@ -1,0 +1,25 @@
+{
+  "name": "portuga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "command-disord": "^1.5.2",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.9.2",
+    "mysql": "^2.18.1",
+    "parseurl": "^1.3.3",
+    "readline": "^1.3.0",
+    "request": "^2.88.2",
+    "npm": "^7.0.11",
+    "discord.js": "^12.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
